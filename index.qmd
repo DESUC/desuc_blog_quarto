@@ -7,11 +7,6 @@ execute:
   warning: false
 ---
 
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
 La [Dirección de Estudios Sociales UC](https://sociologia.uc.cl/desuc) está asociada al [Instituto de Sociología](http://sociologia.uc.cl) de la Facultad de Ciencias Sociales de la [Pontificia Universidad Católica de Chile](http://www.uc.cl).
 
 > Asesoría y soporte metodológico para el diseño, ejecución y análisis de estudios sociales.
