@@ -1,0 +1,184 @@
+body {
+  background-color: white;
+}
+
+.container-validar input[type="text"] {
+  width: 50%;
+}
+
+.container-validar {
+  width: 180%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+.card {
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: none;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.card-body {
+  margin: 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+#resultado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+}
+
+.custom-btn {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.text-center {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+table th,
+td {
+  text-align: center;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+p {
+  margin: 0;
+}
+
+.empleado-encontrado {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.imagen-empleado {
+  max-width: 100%;
+  max-height: 100%;
+  width: 200px;
+  height: 250px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  margin-right: 20px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .nombre-completo {
+    font-size: 14px;
+  }
+  .container-validar {
+    width: 100%;
+  }
+  .empleado-encontrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-empleado {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .nombre-completo {
+    font-size: 14px;
+  }
+  .container-validar {
+    width: 100%;
+  }
+}
+
+@media (max-width: 370px) and (max-height: 930px) {
+  .nombre-completo {
+    font-size: 14px;
+  }
+  .container-validar {
+    width: 100%;
+  }
+  .empleado-encontrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-empleado {
+    text-align: center;
+  }
+}
+
+
+.mensaje-no-encontrado {
+  margin: 20px;
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+}

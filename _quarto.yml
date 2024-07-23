@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: ""
+  description: "Blog de la Dirección de Estudios Sociales UC"
+  site-url: https://blog.desuc.cl
+  google-analytics: "G-VPXTZ3T3C0"
+  navbar:
+    logo: images/desuc.png
+    search: true
+    left:
+      - text: "Inicio"
+        href: index.qmd
+      - text: "Nosotros"
+        href: about.html
+      - text: "Valida tu encuestador"
+        href: validacion_encuestadores.qmd
+
+format:
+  html:
+    css: theme_desuc.css
+    toc: true
+
+editor: visual
