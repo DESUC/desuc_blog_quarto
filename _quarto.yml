@@ -6,7 +6,9 @@ website:
   title: ""
   description: "Blog de la Dirección de Estudios Sociales UC"
   site-url: https://blog.desuc.cl
+  repo-url: https://github.com/DESUC/desuc_blog_quarto
   google-analytics: "G-VPXTZ3T3C0"
+  page-navigation: false
   navbar:
     logo: images/desuc.png
     search: true
@@ -17,10 +19,37 @@ website:
         href: about.html
       - text: "Valida tu encuestador"
         href: validacion_encuestadores.qmd
-
+    tools:
+      - icon: whatsapp
+        text: Whatsapp
+        href: https://wa.me/56223545959
+      - icon: instagram
+        text: Instagram
+        href: https://www.instagram.com/desuc_uc/
+      - icon: linkedin
+        text: LinkedIn
+        href: https://cl.linkedin.com/company/desuc
+      - icon: github
+        text: GitHub
+        href: https://github.com/desuc
+  
+  page-footer:
+    left: |
+      Sitio construido con [![](./docs/images/logo_quarto.png){width=65px}](https://quarto.org)
+    center:
+      - icon: linkedin
+        text: LinkedIn
+        href: https://cl.linkedin.com/company/desuc
+      - icon: instagram
+        text: Instagram
+        href: https://www.instagram.com/desuc_uc/
+      - icon: github
+        text: Github
+        href: https://github.com/desuc
 format:
   html:
     css: theme_desuc.css
     toc: true
+    code-copy: true
 
-editor: visual
+editor: source

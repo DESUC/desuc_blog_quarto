@@ -18,10 +18,9 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ```{r showChoro1}
-htmltools::includeHTML("./_site/busqueda_encuestadores.html")
+htmltools::includeHTML("./busqueda_encuestadores.html")
 ```
 
 <br>
 
 Ante dudas, puede llamarnos al [+56 22 354 5959](tel:+56223545959) o comunicarse con nosotros por [WhatsApp](https://wa.me/56223545959).
-

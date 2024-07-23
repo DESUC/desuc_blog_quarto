@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Dirección de Estudios Sociales">
-<meta name="description" content="Sistema de validación de encuestadores que colaboran con la Dirección de Estudios Sociales UC.">
 
-<title>Validación de encuestadores</title>
+<title>Contacto</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -101,8 +99,12 @@ gtag('config', 'G-VPXTZ3T3C0', { 'anonymize_ip': true});
  <span class="menu-text">Nosotros</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./validacion_encuestadores.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./validacion_encuestadores.html" rel="" target="">
  <span class="menu-text">Valida tu encuestador</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./contacto.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Contactanos</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto tools-wide">
@@ -127,31 +129,14 @@ gtag('config', 'G-VPXTZ3T3C0', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Validación de encuestadores</h1>
+<h1 class="title">Contacto</h1>
 </div>
 
-<div>
-  <div class="description">
-    <p>Sistema de validación de encuestadores que colaboran con la Dirección de Estudios Sociales UC.</p>
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Autor/a</div>
-    <div class="quarto-title-meta-contents">
-             <p><a href="https://sociologia.uc.cl/desuc">Dirección de Estudios Sociales</a> </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Fecha de publicación</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">23 de julio de 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -159,89 +144,6 @@ gtag('config', 'G-VPXTZ3T3C0', { 'anonymize_ip': true});
 
 </header>
 
-<div class="cell">
-<div class="cell-output-display">
-
-
-
-
-  <meta charset="UTF-8">
-  <meta name="referrer" content="no-referrer"> 
-  <title>Búsqueda de empleados</title>
-  <script src="./static/js/script.js"></script>
-  <link rel="stylesheet" href="./theme_desuc.css">
-  <script src="./static/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="./static\css\style.css">
-  <link rel="stylesheet" href="./static/css/bootstrap.min.css">
-
-
-
-  
-   <div class="container-validar" "="">
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-header text-center mt-0">
-            <h4 class="h4-busqueda mt-1 mb-1 anchored">Búsqueda de encuestadores</h4>
-          </div>
-          <div class="card-body">
-            <div class="lbl-rut form-group text-center">
-              <label for="rut">Ingrese el RUT del encuestador:</label>
-              <div class="rut-input">
-                <input type="text" id="rut" class="form-control mx-auto text-center" placeholder="Formato Rut: XXXXXXXX-X">
-              </div>
-            </div>
-            </div>
-            <div class="text-center">
-              <button class="btn btn-primary" onclick="buscarEmpleado()">Buscar</button>
-              <button class="btn btn-secondary ml-2" onclick="limpiarBusqueda()">Limpiar</button>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col">
-                  <div id="resultado"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-  <script>
-    var input = document.getElementById("rut");
-
-    // Agregamos el controlador de eventos para detectar la tecla "Enter"
-    input.addEventListener("keydown", function(event) {
-      if (event.key === "Enter") { // Verifica si la tecla presionada es "Enter"
-        event.preventDefault(); // Evita que se envíe el formulario
-        buscarEmpleado(); // Realiza la búsqueda
-      }
-    });
-  </script>
-  <script>
-    // Obtener el valor del parámetro 'rut' de la URL
-    const urlParams = new URLSearchParams(window.location.search);
-    const rut = urlParams.get('rut');
-  
-    // Verificar si hay un valor de 'rut' en la URL
-    if (rut) {
-      // Establecer el valor en el input correspondiente
-      const rutInput = document.getElementById('rut');
-      rutInput.value = rut;
-      
-      // Realizar la búsqueda automáticamente
-      buscarEmpleado();
-    }
-  </script>
-
-
-
-
-</div>
-</div>
-<p><br></p>
-<p>Ante dudas, puede llamarnos al <a href="tel:+56223545959">+56 22 354 5959</a> o comunicarse con nosotros por <a href="https://wa.me/56223545959">WhatsApp</a>.</p>
 
 
 
