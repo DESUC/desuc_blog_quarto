@@ -3,10 +3,6 @@ title: "Sobre DESUC"
 description: |
   Dirección de Estudios Sociales UC
 lang: 'es'
-author:
-  - name: Dirección de Estudios Sociales 
-    url: https://sociologia.uc.cl/desuc
-date: 09-05-2023
 ---
 
 ```{r setup, include=FALSE}
@@ -76,11 +72,7 @@ l_equipo_desuc <- list(
   list(
     nombre = 'Claudia Yañez',
     cargo = 'Jefa de Proyectos',
-    img = 'claudia_yanez.jpg'),
-  list(
-    nombre = 'Alejandra Zamorano',
-    cargo = 'Auxiliar de oficina',
-    img = 'alejandra_zamorano.jpg')
+    img = 'claudia_yanez.jpg')
 )
 
 df_equipo_desuc <- do.call(rbind, 
