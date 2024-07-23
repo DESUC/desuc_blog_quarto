@@ -2,3 +2,4 @@
 /.quarto/**
 .DS_Store
 /docs/.DS_Store
+/.quarto/
